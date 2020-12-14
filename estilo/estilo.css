@@ -1,0 +1,343 @@
+/****Iframes responsives***/
+.iframe-responsive{ position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /*Divide 9/16, por lo de 16:9*/
+
+}
+.iframe-content{
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 100%;
+height: 100%;
+}
+@font-face{
+  font-family: 'suture';
+  src: url('../tipografia/karma\ suture.ttf');
+}
+
+h1{
+  font-family: 'suture'
+}
+p{
+  font-family: 'Audiowide', cursive;
+}
+
+h2{
+  font-family: 'Audiowide', cursive;
+}
+h3{
+  font-family: 'Audiowide', cursive;
+}
+h4{
+  font-family: 'Audiowide', cursive;
+}
+/***LAYOUT****/
+#contenedor{width: 90vw;
+            height: auto;
+        position: relative;
+    left: 4%;
+background-color: rgb(209, 236, 248);}
+nav{ z-index: 99;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }}
+body { margin: 0; 
+background-color: #662c2c;} 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; /*float: left;*/
+background-size: cover;
+background-position: center;}
+div#slider figure { 
+    position: relative;
+    width: 500%;
+    height: 10%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite; 
+                        }
+                        /* Add a black background color to the top navigation */
+h1{text-align: center;}
+.container{
+  background-color: rgb(195, 245, 195);
+  text-align: center;
+}
+
+h4{color:#662C2C ;}
+.topnav {
+    background-color:#d2ffc6;
+    overflow: hidden;
+    
+}
+a:link{color: #d2ffc6;}
+a:visited{color:#f9fd0d;}
+.linkfinal a:link{color: black;}
+.linkfinal a:visited{color: red;}
+
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #662C2C;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+h1{text-align: center;
+margin-bottom: 5%;}
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #662C2C;
+    color: #d2ffc6;
+}
+
+  /* Add an active class to highlight the current page */
+
+  /* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+.titulo{background-color: #662C2C;
+width: 100%;
+color:#d2ffc6 ;}
+#tipos{background-color: green;
+    height: 100px;
+border: solod   2px green;}
+.gridcol2{display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        background-color:  white;
+        }
+.gridcol2 p{
+  margin: 10%;
+}
+#pen{
+  margin-left: 20%;
+}
+        #izq{
+            /* Add shadows to create the "card" effect */
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            
+        }
+        #dch{
+            /* Add shadows to create the "card" effect */
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            
+        }
+        
+          /* On mouse-over, add a deeper shadow */
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        
+          /* Add some padding inside the card container */
+        .container {
+            padding: 2px 16px;
+        }
+
+.funcionamientocol2{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+}
+  
+
+.texto{ 
+  width: 95%;
+  text-align: center;
+  text-justify: kashida;
+  margin-left: 5%;
+  padding-right: 5%;
+}
+.jaime{
+  width: 100%;
+  height: 100%;
+  margin-left: 10%;
+  overflow: hidden;
+}
+.gridcol6{display: grid;
+grid-template-columns: auto auto auto auto auto auto;
+width: 100%;
+background-color: gainsboro;}
+
+#col6a{padding: 5px;margin-right: 5px;border: solid 5px black;}
+#col6b{margin-right: 5px;padding: 5px; border: solid 5px black;}
+#col6c{margin-right: 5px;padding: 5px;border: solid 5px black;}
+#col6d{margin-right: 5px;padding: 5px;border: solid 5px black;}
+#col6e{margin-right: 5px;padding: 5px;border: solid 5px black;}
+#col6f{margin-right: 5px;padding: 5px;border: solid 5px black;}
+
+h1{
+  text-align: center;
+  font-weight: bold;
+  color: #d2ffc6;
+  margin: 5%;
+}
+h2{
+  text-align: center;
+  font-weight: bold;
+}
+
+.gridcol4{display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    
+  }
+  link{color:d2ffc6 ;}
+
+#marcaizq{
+  background-image: url(../imagenes/tarjetaExterna.jpg);
+  color:#d2ffc6 ;
+  margin: 5%;
+  padding: 5%;
+  border: solid black 2px;
+  border-radius: 10%;
+}
+#marcadch{
+  background-image: url(../imagenes/tarjetaInterna.jpg);
+  margin: 5%;
+  padding: 5%;
+  border: solid black 2px;
+  border-radius: 10%;
+}
+
+  .tiendas{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      width: 90%;
+      margin: 5%;
+      
+    }
+.opinion{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 100%;
+
+}
+.opinion iframe{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.fuentes{
+  background-image: url('../imagenes/OndasSonido.jpg');
+  
+}
+.fuentes h2{color: white;}
+.opinion p{
+  padding-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1.5em;
+}
+
+.f{
+  color: white;
+  border: white 2px dotted;
+}
+
+.colfooter{
+  display: grid;
+  grid-template-columns: 25% 20% 20% 35%;
+  width: 100%;
+}
+.colfooter iframe{
+  margin-left: 15%;
+  height: 50vh;
+}
+#footer1{
+  margin: 5%;
+}
+#footer3{
+  margin: 5%;
+}
+#footer4{
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 10%;
+}
+/*****LA MEDI QUERY ES UN IF QUE SI CUMPLE LA CONDICIÓN*****/
+/***MODIFICA LA VISUALIZACIÓN O EL ESTILO APLICADOS A LOS ELEMENTOS QUE MODIFIQUE****/
+@media only screen and (max-width:1300px){
+.topnav a:not(:first-child) {display: none;}
+.topnav a.icon {
+  float: right;
+  display: block;
+}
+.topnav.responsive {position: relative;}
+.topnav.responsive a.icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+.colfooter{grid-template-columns: auto auto;}
+
+}
+@media only screen and (max-width:900px){
+  .grid3col{display:block;}
+  .col3{margin: auto;
+      display: block;}
+/*El iframe de la tercera columna se salta el centrado*/
+  .grid4col{grid-template-columns: 50% 50%;}
+  .funcionamientocol2{display: block;}
+  .gridcol6{display: grid;
+  grid-template-columns: auto auto auto;}
+  .tiendas{grid-template-columns: auto auto;}
+  .colfooter{grid-template-columns: auto auto;}
+  .opinion{display: block;}
+  
+  .colfooter p{text-align: center;}
+  .colfooter h4{text-align: center;}
+  .footer4 iframe{height: 100px;}
+ }
+  
+
+  
+@media only screen and (max-width:600px){
+  #mesa {width:100%;}
+  #intro p {width:100%;}
+  #intro p{text-align: left;}
+  .gridcol2 {display: block;}/*Modificar el grid en un bloque*/
+  /*.grid{grid-template-columns: 100%} Esto tambien es para poner en 1 columna*/
+/* .grid3col {display:block;}*/
+  .grid4col{grid-template-columns: 100%;}
+  
+.gridcol6{display: block;}
+.tiendas{display: block;
+      margin-left: 30%;}
+.colfooter{display: block;}
+.colfooter iframe{
+  margin-left: 15%;
+}
+
+.colfooter img{
+  margin-left: 15%;
+}
+
+}
